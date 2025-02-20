@@ -54,3 +54,6 @@ int main() {
     printf("Grayscale image saved as output.jpg\n");
     return 0;
 }
+
+//nvcc grayscale_cuda.cu -o grayscale -lopencv_core -lopencv_imgcodecs -lopencv_highgui
+
